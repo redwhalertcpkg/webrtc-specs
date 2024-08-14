@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
-    spec.name         = "WebRTC-SDK"
-    spec.version      = "125.6422.04"
+    spec.name         = "RedwhaleWebRTC-SDK"
+    spec.version      = "104.5112.1"
     spec.summary      = "WebRTC pre-compiled library for Darwin. "
     spec.description  = <<-DESC
     WebRTC pre-compiled library for Darwin.
@@ -9,13 +9,12 @@ Pod::Spec.new do |spec|
     and a series of optimization patches from the webrtc-sdk community have been added.
     DESC
   
-    spec.homepage     = "https://github.com/webrtc-sdk/Specs"
+    spec.homepage     = "https://github.com/redwhalertcpkg/webrtc-specs"
     spec.license      = { :type => 'BSD', :file => 'WebRTC.xcframework/LICENSE' }
-    spec.author       = "webrtc-sdk"
-    spec.ios.deployment_target = '13.0'
-    spec.osx.deployment_target = '10.14'
+    spec.author       = "redwhalertc"
+    spec.ios.deployment_target = '10.0'
   
-    spec.source       = { :http => "https://github.com/webrtc-sdk/Specs/releases/download/125.6422.04/WebRTC.xcframework.zip" }
+    spec.source       = { :http => "https://github.com/redwhalertcpkg/webrtc-specs/releases/download/104.5112.1/WebRTC.xcframework.zip" }
     spec.vendored_frameworks = "WebRTC.xcframework"
     
   end
