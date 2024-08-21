@@ -1,6 +1,11 @@
 # Changelog
 
 --------------------------------------------
+[104.5112.15] - 2024-08-21
+
+* Upgrade to WebRTC-SDK M104.5112.15
+* resize outbuf in frame sm4-cbc crypto;
+
 [104.5112.14] - 2024-08-14
 
 * Upgrade to WebRTC-SDK M104.5112.14
