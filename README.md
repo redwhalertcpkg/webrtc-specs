@@ -11,5 +11,5 @@ source 'https://github.com/redwhalertcpkg/webrtc-specs.git'
 ```
 
 ```podspec
-pod 'WebRTC-SDK', '=104.5112.15'
+pod 'WebRTC-SDK', '=125.6422.07'
 ```
